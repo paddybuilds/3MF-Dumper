@@ -1,3 +1,20 @@
-/target
-/decompiled
+/target/
 *.3mf
+
+# Rust build and profiling artifacts
+*.rs.bk
+*.profraw
+*.gcda
+*.gcno
+
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+decompiled_current/
+decompiled_test/
+decompiled/
